@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample" parallel="false" thread-count="0">
+
+	<test name="BookCruise">
+		<classes>
+			<class name="com.sample.web.tests.BookCruiseTests" />
+		</classes>
+	</test>
+
+</suite>
